@@ -22,7 +22,7 @@
   padding: 40px 350px;
   line-height: 1.5;
   background-color: #fcfcfc;
-
+  border-bottom: #e2e2e2 solid 1px;
   color: gray;
 }
 .p-content {
@@ -35,11 +35,14 @@
   padding: 30px;
 }
 hr {
-  width: 690px;
+ 
   border: none;
   border-top: 1px solid #e2e2e2;
   height: 0;
   margin-top: 40px;
+  margin-left: 90px;
+  margin-right: 90px;
+
   
 }
 
@@ -49,8 +52,10 @@ button {
   padding: 12px 8px;
   margin: 12px;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-  border: none;
+  border-width: 0 0 2px 0;
+  
+ 
+  
 }
 
 button:hover {

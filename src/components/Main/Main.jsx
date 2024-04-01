@@ -51,17 +51,17 @@ const Main = () => {
       <div className="content">
         {currentJoke != -1 ? (
           <>
-            <div key={data[currentJoke].id}>{data[currentJoke].content}</div>
+            <div className="p-content" key={data[currentJoke].id}>{data[currentJoke].content}</div>
             <hr />
             <div className="button-group">
               <button
-                style={{ background: "#2C7EDB" }}
+                style={{ background: "#2C7EDB",borderColor: "#157AED" }}
                 onClick={() => handleVote("like")}
               >
                 This is Funny!
               </button>
               <button
-                style={{ background: "#29B363" }}
+                style={{ background: "#29B363", borderColor: "#0EED6C" }}
                 onClick={() => handleVote("dislike")}
               >
                 This is not funny.
