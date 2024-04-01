@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  padding: 4px;
+  justify-content: space-between;
+  width: auto;
+  height: 10vh;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo {
+  height: auto;
+  margin-left: 18%;
+}
+
+.right {
+  margin-right: 18%;
+  display: flex;
+  text-align: right;
+}
+
+.user-info {
+  font-size: 14px;
+  align-self: center;
+  padding-right: 12px;
+}
+
+.avatar {
+  align-self: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 90%;
+}

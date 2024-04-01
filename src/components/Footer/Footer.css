@@ -1,0 +1,11 @@
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-indent: 3em;
+  text-align: center;
+  padding: 8px 366px;
+  color: gray;
+  font-size: 12px;
+  line-height: 1.8;
+}
